@@ -1,6 +1,6 @@
 # Plugin de tiempo restante para Cura
 
-Pequeño plugin para Cura que modifica el gcode añadiendo la instrucción `M117` indicando el tiempo restante hasta acabar.
+Pequeño plugin para Cura que modifica el gcode añadiendo la instrucción `M117` indicando el tiempo restante aunque no esté conectado al PC, solo con la pantalla y la SD.
 
 El plugin necesita la aceleración de los ejes. Así mismo, hay que añadir un _factor de ajuste_, por defecto de **1.2**
 
