@@ -6,6 +6,9 @@
 #Param: accel(float:30000) Accel of axis (mm/s2)
 #Param: message(str:Restante    ) Message 
 
+
+#Nota: No he puesto ninguna tilde porque el Cura falla al encontrar caracteres raros incluso en los comentarios...
+
 import re
 import math
 
