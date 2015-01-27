@@ -1,13 +1,20 @@
 #!/usr/bin/python
-
+#Name: Estimate Time 
+#Info: Show estimated time of accomplishment
+#Depend: GCode
+#Type: postprocess
+#Param: corfactor(float:1.2) Correction factor
+#Param: accel(float:30000) Accel of axis (mm/s2)
+#Param: message(str:Restante    ) Message 
 import re
 import math
 import sys
 
-accel = 3000
-corfactor = 1.2
-message = "Restante    "
-filename = sys.argv[1]
+if __name__ == '__main__':
+    accel = 30000
+    corfactor = 1.2
+    message = "Restante "
+    filename = sys.argv[1]
 
 
 time  = 0.
